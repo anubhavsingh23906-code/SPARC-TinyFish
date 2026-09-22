@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "leaflet/dist/leaflet.css";
+
+@layer base {
+  * { @apply border-slate-200; }
+  body { @apply bg-cloud text-ink antialiased; }
+}
+
+@layer components {
+  .panel { @apply rounded-3xl bg-white shadow-panel border border-white; }
+  .eyebrow { @apply text-[11px] font-bold uppercase tracking-[.16em] text-slate-500; }
+  .chip { @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold; }
+}

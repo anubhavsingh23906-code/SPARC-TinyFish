@@ -1,0 +1,2 @@
+﻿import { DashboardShell } from "@/components/dashboard-shell"; import { IntelligenceBoard } from "@/components/intelligence-board"; export default function Page(){return <DashboardShell role="CITY_OPERATOR"><section><p className="eyebrow">SPARC Intelligence · deterministic demo</p><h1 className="mb-2 text-3xl font-bold">See capacity before it becomes congestion.</h1><p className="mb-6 text-slate-600">Live-like seeded signals → confidence → forecast → shortage risk → recommended action.</p><IntelligenceBoard/></section></DashboardShell>}
+
