@@ -7,6 +7,7 @@ import {
 } from "react";
 import Link from "next/link";
 import { DashboardShell } from "@/components/dashboard-shell";
+import { LiveWebVerification } from "@/components/live-web-verification";
 import { ModeSelector } from "@/components/mode-selector";
 import { MapPanel } from "@/components/map-panel";
 import { SpaceMode, SpaceSummary } from "@/lib/types";
@@ -77,7 +78,7 @@ export default function Home() {
 
     const interval = window.setInterval(() => {
       void load();
-    }, 3000);
+    }, 15000);
 
     return () => {
       active = false;
@@ -132,6 +133,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <LiveWebVerification />
 
         <div className="panel p-5">
           <div className="flex items-center justify-between gap-4">
@@ -311,4 +314,3 @@ export default function Home() {
     </DashboardShell>
   );
 }
-
