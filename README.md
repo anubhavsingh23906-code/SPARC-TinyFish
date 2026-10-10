@@ -186,7 +186,7 @@ Potential future improvements include:
 
 The project has a web prototype that can be explored here:
 
-- **Live demo:** https://sparc-nu.vercel.app/
+- **Live demo:** https://sparc-tiny-fish.vercel.app/
 - **Source code:** https://github.com/anubhavsingh23906-code/SPARC-TinyFish
 
 The prototype is intended to demonstrate the parking user experience, owner-facing workflows, reservation flow, QR-based verification, and the proposed TinyFish integration.
