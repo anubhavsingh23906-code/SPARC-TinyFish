@@ -4,7 +4,7 @@
 **An intelligent parking platform connecting drivers, parking owners, and urban space management through digital reservations, QR-based verification, and web intelligence powered by TinyFish.**
 
 <p align="center">
-  <a href="https://sparc-nu.vercel.app/">Live Demo</a> ·
+  <a href="https://sparc-tiny-fish.vercel.app/">Live Demo</a> ·
   <a href="https://github.com/anubhavsingh23906-code/SPARC-TinyFish">GitHub Repository</a>
 </p>
 
